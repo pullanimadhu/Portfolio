@@ -550,11 +550,11 @@ export default function Portfolio() {
               VIEW PROJECTS {"->"}
             </button>
 
-            <a className="cta-button cta-secondary" href="/Madhu_latest_resume.pdf" download>
+            <a className="cta-button cta-secondary" href={`${import.meta.env.BASE_URL}Madhu_latest_resume.pdf`} download>
               DOWNLOAD RESUME
             </a>
 
-            <a className="cta-button cta-secondary" href="/Madhu_latest_resume.pdf" target="_blank" rel="noreferrer">
+            <a className="cta-button cta-secondary" href={`${import.meta.env.BASE_URL}Madhu_latest_resume.pdf`} target="_blank" rel="noreferrer">
               VIEW RESUME
             </a>
 
