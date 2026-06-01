@@ -790,8 +790,8 @@ export default function App() {
 
             <div className="cta-row">
               <button type="button" className="cta primary" onClick={() => scrollTo("Projects")}>VIEW PROJECTS</button>
-              <a className="cta ghost" href={`${import.meta.env.BASE_URL}Madhu_latest_resume.pdf`} download>DOWNLOAD RESUME</a>
-              <a className="cta ghost" href={`${import.meta.env.BASE_URL}Madhu_latest_resume.pdf`} target="_blank" rel="noreferrer">VIEW RESUME</a>
+              <a className="cta ghost" href={`${import.meta.env.BASE_URL}Madhu_latest_resume_.pdf`} download>DOWNLOAD RESUME</a>
+              <a className="cta ghost" href={`${import.meta.env.BASE_URL}Madhu_latest_resume_.pdf`} target="_blank" rel="noreferrer">VIEW RESUME</a>
               <a className="cta ghost" href="https://linkedin.com/in/madhu001" target="_blank" rel="noreferrer">LINKEDIN</a>
             </div>
           </div>
